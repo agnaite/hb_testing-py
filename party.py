@@ -22,7 +22,7 @@ def is_mel(name, email):
 
     >>> is_mel('Jane Smith','mel@ubermelon.com')
     True
- 
+
     """
 
     return name == "Mel Melitpolski" or email == "mel@ubermelon.com"
@@ -32,8 +32,6 @@ def most_and_least_common_type(treats):
     """Given list of treats, return {most, least} common types.
 
     >>> treats = [
-    ...    {'type':'dessert'},
-    ...    {'type':'dessert'},
     ...    {'type':'dessert'},
     ...    {'type':'dessert'},
     ...    {'type':'dessert'},
